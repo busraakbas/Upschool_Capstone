@@ -1,0 +1,162 @@
+form {
+  justify-content: center;
+  align-items: center;
+  background-color: #032541;
+  height: 20rem;
+  width: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+#HeaderContainer {
+  height: 80px;
+  width: 100%;
+  background-color: #032541;
+  display: flex;
+  flex-direction: row;
+  top: 0px;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+#HeaderContainer2 {
+  height: 80px;
+  width: 100%;
+  background-color: #032541;
+  display: flex;
+  flex-direction: row;
+  top: 0px;
+  position: fixed;
+  align-items: center;
+}
+
+#movies {
+  color: white;
+  margin-left: 30px;
+  font-size: large;
+}
+
+#movies:hover {
+  color: white;
+  font-size: 21px;
+  margin-left: 30px;
+  transition: font-size 0.6s;
+}
+
+#logo {
+  margin-left: 30px;
+}
+
+.DropDownPlaceholderClassName {
+  color: white;
+  margin-left: 30px;
+  font-size: large;
+  font-weight: 500;
+  position: fixed;
+  margin-top: -13px;
+}
+.DropDownPlaceholderClassName:active {
+  color: white;
+  margin-left: 30px;
+}
+.DropDownClassName2 {
+  color: white;
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  position: fixed;
+  margin-top: 35px;
+  line-height: 30px;
+  background-color: #032541;
+  border-radius: 10px;
+  width: 100px;
+  justify-content: center;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.DropDownClassName2:active {
+  color: black;
+  font-size: 40px;
+  margin-left: 30px;
+  transition: font-size 0.6s;
+  margin-top: 100px;
+  position: fixed;
+}
+
+#avatar {
+  position: "absolute";
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  right: 0;
+  margin-left: 70%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+#topic {
+  color: white;
+  margin-top: 30px;
+}
+
+#filmCardContainer {
+  width: 15%;
+  height: 135%;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#filmCardBottomContainer {
+  flex-direction: column;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#txt {
+  color: #032541;
+  font-weight: 500;
+}
+#txt2 {
+  color: #032541;
+  font-weight: 500;
+}
+
+.topicContainer {
+  margin: 20px;
+  margin-top: 80px;
+}
+
+p {
+  margin: 0;
+}
+
+#buttonContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
